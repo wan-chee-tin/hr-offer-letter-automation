@@ -99,13 +99,3 @@ Update the `Config.xlsx` file inside the **`Data/`** folder with the following k
 3. Save personalized offer letter as DOCX and PDF
 4. Send the offer letter via Outlook 365
 5. Log and mark transaction as successful or failed
-
----
-
-## 🛠️ Technologies Used
-
-- **UiPath Studio (with REFramework)**  
-- **Microsoft Excel**  
-- **Microsoft Word**  
-- **Outlook 365 (via UiPath M365 Activities)**  
-- **Orchestrator Queues (Dispatcher–Performer Architecture)** 
