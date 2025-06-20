@@ -1,5 +1,3 @@
-# 🤖 HR Offer Letter Automation (UiPath)
-
 ## 📖 Project Overview
 
 This repository contains a UiPath-based automation project designed to streamline the HR offer letter process. The bot handles validation, offer letter generation, and email dispatch for selected candidates using Excel and Word integration, along with Outlook 365. By implementing Dispatcher and Performer logic, this automation separates data processing from transactional execution — aligning with enterprise-level best practices. It also includes robust data validation and exception handling to ensure high reliability and accuracy.
