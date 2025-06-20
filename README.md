@@ -32,7 +32,7 @@ This workflow reads the candidate data, performs validation, and queues valid re
 
 | Asset Name                 | Type | Example Value                                     |
 |---------------------------|------|--------------------------------------------------|
-| `ExcelPath_CandidateInfo` | Text | `C:\Users\Kris\Documents\CandidateInfo.xlsx`     |
+| `ExcelPath_CandidateInfo` | Text | `C:\Users\UiPath\Documents\CandidateInfo.xlsx`     |
 | `SheetName_CandidateInfo` | Text | `Status`                                         |
 
 **Queue:**
@@ -110,6 +110,4 @@ Update the `Config.xlsx` file inside the **`Data/`** folder with the following k
 - **Microsoft Excel**  
 - **Microsoft Word**  
 - **Outlook 365 (via UiPath M365 Activities)**  
-- **Orchestrator Queues (Dispatcher–Performer Architecture)**  
-
----
+- **Orchestrator Queues (Dispatcher–Performer Architecture)** 
