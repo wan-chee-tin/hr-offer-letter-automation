@@ -14,8 +14,6 @@ This repository contains a UiPath-based automation project designed to streamlin
 
 ## 🚀 How to Run
 
-## 🚀 How to Run
-
 Before running this automation, ensure the following are configured:
 
 ### ⚙️ Required Tools
@@ -23,8 +21,6 @@ Before running this automation, ensure the following are configured:
 - Microsoft Excel & Microsoft Word
 - UiPath Orchestrator (for Assets and Queues)
 - Outlook 365 (email account integration via UiPath M365 activities)
-
----
 
 ### 🔹 Dispatcher: `Dispatcher_OfferLetterAutomation/Main.xaml`
 
@@ -45,7 +41,7 @@ This workflow reads the candidate data, performs validation, and queues valid re
 |--------------------------|
 | `Queue_OfferLetter_Hired` |
 
-#### ▶ Steps to Run
+#### ▶ Steps to Run Dispatcher
 
 1. Ensure the assets and queue above are created in Orchestrator.
 2. Open the Dispatcher project in UiPath Studio:  
@@ -57,8 +53,6 @@ This workflow reads the candidate data, performs validation, and queues valid re
    - Validate required fields and email format
    - Mark invalid records with `"Not Valid"` in the `Validation` column
    - Add valid candidates to the `Queue_OfferLetter_Hired` queue
-
----
 
 ### 🔸 Performer: `Performer_OfferLetterAutomation/Main.xaml`
 
@@ -77,7 +71,7 @@ Update the `Config.xlsx` file inside the **`Data/`** folder with the following k
 | `EmailBody`               | Body message for offer email            |
 | `HRName`, `HREmail`, etc. | HR contact info used in the offer letter/email |
 
-#### ▶ Steps to Run
+#### ▶ Steps to Run Performer
 
 1. Open the Performer project in UiPath Studio:  
    `Performer_OfferLetterAutomation/Main.xaml`
