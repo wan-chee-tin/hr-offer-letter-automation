@@ -46,17 +46,13 @@ This repository contains a UiPath-based automation project designed to streamlin
 
 This automation follows the **Dispatcher–Performer pattern**:  
 - **Dispatcher**: Prepares and validates candidate data from Excel.  
-- **Performer**: Generates offer letters and sends them via email.
-
----
+- **Performer**: Generates offer letters and sends them via email.  
 
 ### ⚙️ Required Tools  
 - [UiPath Studio](https://www.uipath.com/)  
 - Microsoft Excel & Microsoft Word  
 - UiPath Orchestrator (for Assets and Queues)  
 - Outlook 365 (email account integration via UiPath M365 activities)  
-
----
 
 ### 🔹 Dispatcher: `Dispatcher_OfferLetterAutomation/Main.xaml`  
 
@@ -89,8 +85,6 @@ This workflow reads candidate data, performs validation, and queues valid record
    - Mark invalid records with `"Not Valid"` in the `Validation` column  
    - Add valid candidates to the `Queue_OfferLetter_Hired` queue  
 
----
-
 ### 🔸 Performer: `Performer_OfferLetterAutomation/Main.xaml`  
 
 This workflow processes queued candidates and sends personalized offer letters.  
@@ -99,14 +93,14 @@ This workflow processes queued candidates and sends personalized offer letters.
 
 Update the `Config.xlsx` file inside the **`Data/`** folder with the following keys:  
 
-| Key Name                   | Description                               |  
-|-----------------------------|-------------------------------------------|  
-| `EmployerName`              | Company or employer name                  |  
-| `OfferLetterTemplateFilePath` | Full path to Word template file         |  
-| `OfferLetterFolderPath`     | Folder where generated letters are saved  |  
-| `EmailSubject`              | Subject line for offer email              |  
-| `EmailBody`                 | Body message for offer email              |  
-| `HRName`, `HREmail`, etc.   | HR contact info used in offer letter/email |  
+| Key Name                     | Description                               |  
+|-------------------------------|-------------------------------------------|  
+| `EmployerName`                | Company or employer name                  |  
+| `OfferLetterTemplateFilePath` | Full path to Word template file           |  
+| `OfferLetterFolderPath`       | Folder where generated letters are saved  |  
+| `EmailSubject`                | Subject line for offer email              |  
+| `EmailBody`                   | Body message for offer email              |  
+| `HRName`, `HREmail`, etc.     | HR contact info used in offer letter/email |  
 
 #### ▶ Steps to Run Performer  
 1. Open the Performer project in UiPath Studio:  
@@ -122,12 +116,9 @@ Update the `Config.xlsx` file inside the **`Data/`** folder with the following k
 
 ---
 
-⚠️ **Error Handling:** Missing templates, invalid Excel data, or email errors are logged, and failed transactions are flagged in Orchestrator.  
-  
----
-
 ## 👤 Author  
 **Wan Chee Tin**  
-💼 RPA Developer | Automation & Analytics Enthusiast
+💼 RPA Developer | Automation & Analytics Enthusiast  
 📧 [kwct.1997@outlook.com](mailto:kwct.1997@outlook.com)  
-🌐 [LinkedIn](https://www.linkedin.com/in/wan-chee-tin/) | [GitHub](https://github.com/wan-chee-tin)  
+🌐 [LinkedIn](https://linkedin.com/) | [GitHub](https://github.com/)  
+
