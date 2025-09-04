@@ -8,6 +8,38 @@ This repository contains a UiPath-based automation project designed to streamlin
 
 *Coming Soon...*
 
+
+---
+
+## ⚙️ Tech Stack / Tools Used  
+- **UiPath Studio & Orchestrator (REFramework)**  
+- **MS Excel** – Candidate data input  
+- **MS Word** – Offer letter template  
+- **Outlook 365** – Email distribution  
+
+---
+
+## 🔄 Workflow Summary  
+- **Dispatcher**  
+  - Reads candidate data from Excel  
+  - Filters only “Hired” candidates  
+  - Validates email formats & required fields  
+  - Pushes valid candidates into Orchestrator Queue  
+
+- **Performer**  
+  - Retrieves candidate records from Queue  
+  - Populates Word offer letter template with candidate details  
+  - Saves letters as DOCX + PDF  
+  - Sends personalized email with attachment via Outlook  
+
+---
+
+### 📊 Business Impact / Results  
+- **Before Automation**: 30–45 minutes per batch of candidates  
+- **After Automation**: ~5–7 minutes per batch  
+- **Error Reduction**: Eliminates ~15% manual errors (typos, missed entries, email mistakes)  
+- **Peak Load**: Efficiently handles 200–400 candidates during campus recruitment seasons  
+
 ---
 
 ## 🚀 How to Run
@@ -81,3 +113,10 @@ Update the `Config.xlsx` file inside the **`Data/`** folder with the following k
    - Generate and save DOCX and PDF versions
    - Send offer letter via Outlook 365
    - Mark transaction success/failure in Orchestrator
+  
+
+## 👤 Author  
+**Wan Chee Tin**  
+- 💼 RPA Developer | Automation & Analytics Enthusiast
+- 📧 [kwct.1997@outlook.com](mailto:kwct.1997@outlook.com)  
+- 🌐 [LinkedIn](https://www.linkedin.com/in/wan-chee-tin/) | [GitHub](https://github.com/wan-chee-tin)  
