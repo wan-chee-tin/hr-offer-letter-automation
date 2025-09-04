@@ -34,7 +34,7 @@ This repository contains a UiPath-based automation project designed to streamlin
 
 ---
 
-### 📊 Business Impact / Results  
+## 📊 Business Impact / Results  
 - **Before Automation**: 30–45 minutes per batch of candidates  
 - **After Automation**: ~5–7 minutes per batch  
 - **Error Reduction**: Eliminates ~15% manual errors (typos, missed entries, email mistakes)  
