@@ -49,8 +49,9 @@ This automation follows the **Dispatcher–Performer pattern**:
 - **Performer**: Generates offer letters and sends them via email.  
 
 ### ⚙️ Required Tools  
-- [UiPath Studio](https://www.uipath.com/)  
-- Microsoft Excel & Microsoft Word  
+- UiPath Studio
+- Microsoft Excel
+- Microsoft Word  
 - UiPath Orchestrator (for Assets and Queues)  
 - Outlook 365 (email account integration via UiPath M365 activities)  
 
