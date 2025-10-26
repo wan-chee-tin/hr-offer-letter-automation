@@ -6,8 +6,7 @@ This repository contains a UiPath-based automation project designed to streamlin
 
 ## 🎬 Demo Video
 
-*Coming Soon...*
-
+Watch the demo video to see the entire process: https://youtu.be/59ZYeYOBXks
 
 ---
 
